@@ -1,4 +1,4 @@
-window.onload=function(){
+﻿window.onload=function(){
 //贪吃蛇开始---------------------------------------------
     var changjing=document.getElementById('changjing'),row=10,width=(800-row)/row+'px';
     for(var i=0;i<row;i++){
@@ -111,6 +111,6 @@ window.onload=function(){
         setTimeout(function(){
             jiemian.style.display='none';
         },800)
-    };
+    }; audio.play();
 
 };
