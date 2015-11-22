@@ -1,0 +1,121 @@
+
+
+/*贪吃蛇开始*/
+#jiemian{
+    margin: 50px auto;
+    width:800px;
+    height: 800px;box-shadow: 0 0 10px inset;
+    border: 1px solid black;
+    background-image: url("../images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: none;
+    border-bottom:none ;
+    position: relative;
+    display: block;
+    z-index: 3;
+}
+#ren{
+    width:675px;
+    height: 395px;
+    position: absolute;
+    left: 115px;
+    top: 130px;
+}
+.start{
+    position: absolute;
+    width: 185px;
+    height: 109px;
+    background-image: url("../images/start.png");
+    left: 320px;
+    top:530px;
+}
+.start:hover{
+    background-image: url("../images/start.png");
+    background-position: 185px 0;
+}
+
+.tiaodong{
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 120px;*/
+    -webkit-animation-name: bounce1;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-animation-iteration-count: infinite; /*动画持续无限次数*/
+}
+@-webkit-keyframes bounce1 {
+    from, 20%, 53%, 80%, to {
+        transform: translate3d(0,0,0);
+    }
+
+    40%, 43% {
+        transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        transform: translate3d(0,-4px,0);
+    }
+}
+#tanchishe{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 815px;
+    width: auto;
+    background-image:url("../images/背景.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+
+}
+#changjing{
+    margin: 10px auto;
+    width:805px;
+    height:805px;box-shadow: 0 0 10px inset;
+    border: 1px solid black;
+    background-image: url("../images/senlin.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: none;
+    border-bottom:none ;
+    z-index: 2;
+}
+#block{
+    /*background-color: white;*/
+    /*width: 56px;*/
+    /*height: 56px;*/
+    margin: 0 1px 1px 0 ;
+    /*border: 1px solid black;*/
+    float: left;
+    /*background: green;*/
+}
+/*贪吃蛇结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
